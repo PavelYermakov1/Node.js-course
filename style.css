@@ -1,0 +1,52 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.input {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 2px;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  height: 40px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
+}
+
+.date {
+  width: 60%;
+}
+
+.date-list {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.date-list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  font-size: 1rem;
+}
